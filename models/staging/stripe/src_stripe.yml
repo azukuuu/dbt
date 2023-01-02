@@ -9,6 +9,7 @@ sources:
         columns:
         - name: id
           tests:
-            - not null
             - unique
+            - not_null
+
         
